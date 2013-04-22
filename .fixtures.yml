@@ -1,6 +1,10 @@
 fixtures:
   repositories:
-    puppet: 'git://github.com/theforeman/puppet-puppet'
+    puppet:   'git://github.com/theforeman/puppet-puppet'
+    tftp:     'git://github.com/theforeman/puppet-tftp'
+    xinetd:   'git://github.com/puppetlabs/puppetlabs-xinetd.git'
+    foreman:  'git://github.com/theforeman/puppet-foreman'
+
 
   symlinks:
     foreman_proxy: "#{source_dir}"
